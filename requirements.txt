@@ -1,0 +1,26 @@
+# ==== Core Flask stack ====
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+Werkzeug==3.0.3
+
+# ==== Database driver ====
+PyMySQL==1.1.1
+cryptography==43.0.0
+
+# ==== Config / env ====
+python-dotenv==1.0.1
+
+# ==== AI Chatbot (Agentic AI Assistant module) ====
+google-genai==1.20.0
+
+# ==== Coming in later modules (uncomment when needed) ====
+# ReportLab==4.2.2        # PDF payslips (Payslip Module)
+# pandas==2.2.2           # Reports / Excel export (Reports Module)
+# matplotlib==3.9.0       # Charts on server-rendered reports
+# qrcode==7.4.2           # QR code on payslips
+# openpyxl==3.1.5         # Excel export
+# langchain==0.2.11       # Agentic AI Assistant
+# langchain-openai==0.1.17
+# openai==1.35.10
